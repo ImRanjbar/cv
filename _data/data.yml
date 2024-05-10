@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
+    position: left # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
@@ -13,7 +13,7 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: A.RanjbarR12@gmail.com
+    email: callme.ranjbar@gmail.com
     phone: +98 933 691 1454
     timezone: Iran/Tehran Timezone
     citizenship:
@@ -61,14 +61,14 @@ education:
     info:
       - degree: BSc in Computer Engineering
         university: University of Isfahan
-        time: 2022
+        time: 2022 - Present
         details: |
 
 experiences:
 
     title: Experiences
     info:
-      - role: "Teaching \"Fundamentals of Programming with C\""
+      - role: "Teaching \"Fundamentals of Programming with C++\""
         time: 2023
         company: University of Isfahan
         details: | 
@@ -80,7 +80,7 @@ experiences:
         details: | 
             - Dr. Hossein Mahvash Mohammadi
 
-      - role: "Advanced Programming with C - Teaching Assistant"
+      - role: "Advanced Programming with C++ - Teaching Assistant"
         time: 2023
         company: University of Isfahan
         details: | 
