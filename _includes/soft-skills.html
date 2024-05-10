@@ -1,0 +1,22 @@
+{% assign soft-skills = site.data.data.soft-skills %} {% if soft-skills %}
+<section class="skills-section section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ soft-skills.title}}
+  </h2>
+
+  <div class="skillset">
+    {% for skill in soft-skills.toolset %}
+    <div class="item">
+      <h3 class="level-title">{{ skill.name | markdownify  }}</h3>
+      <!--//level-bar-->
+    </div>
+    <!--//item-->
+    {% endfor %}
+  </div>
+</section>
+<!--//soft-skills-section-->
+{% endif %}

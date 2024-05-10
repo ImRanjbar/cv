@@ -86,6 +86,28 @@ experiences:
         details: | 
             - Dr. Mojtaba Mahdavi
 
+courses:
+
+    title: Courses
+    info:
+      - role: "Advanced Programming: 20/20"
+        time: 2023
+        company: University of Isfahan
+        details: | 
+
+
+      - role: "Data Structure: 17/20"
+        time: 2023
+        company: University of Isfahan
+        details: | 
+
+
+      - role: "Fundamentals of Programming and Computer: 16.60/20"
+        time: 2022
+        company: University of Isfahan
+        details: | 
+        
+
 projects:
     title: Projects
     intro: >
@@ -111,6 +133,16 @@ skills:
 
       - name: Qt framework
         level: 40%
+
+      - name: Python
+        level: 40%
+
+soft-skills:
+    title: Soft Skills
+
+    toolset:
+      - name: |
+          - Teaching
 
 
 footer: >
