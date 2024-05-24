@@ -1,4 +1,18 @@
 {% assign skills = site.data.data.skills %} {% if skills %}
+
+<style>
+    .familiar .title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #2d7788;
+    }
+
+    .familiar .level-title {
+    font-size: 14px;
+    color: #545E6C;
+  }
+</style>
+
 <section class="skills-section section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
@@ -18,6 +32,17 @@
       </div>
       <!--//level-bar-->
     </div>
+    <!--//item-->
+    {% endfor %}
+  </div>
+
+
+  <div class="familiar">
+    <h3 class = "title">
+      Familiar with:
+    </h3>
+    {% for skill in skills.familiar %}
+      <h3 class="level-title">{{ skill.name }}</h3>
     <!--//item-->
     {% endfor %}
   </div>

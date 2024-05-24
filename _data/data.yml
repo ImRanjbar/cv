@@ -137,12 +137,18 @@ skills:
       - name: Python
         level: 40%
 
+    familiar:
+      - name: C#, SQLite, Docker, Git, HTML, CSS, Figma, MIPS Assembly, Linux
+
 soft-skills:
     title: Soft Skills
 
     toolset:
       - name: |
           - Teaching
+          - Communication
+          - Patience
+          - Adaptability
 
 
 footer: >
