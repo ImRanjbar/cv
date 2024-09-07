@@ -101,12 +101,24 @@ p {
   .container-block {
     padding: 30px;
   }
+  .container-block-education {
+    padding: 30px 5px 30px 30px;
+  }
   .container-block-title {
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 15px;
+  }
+  .university-container {
+    display: flex;
+    grid-template-columns: 50px 1fr;
+    justify-content: left;
+  }
+  .uni-icon {
+    height: 50px;
+    margin-right: 10px;
   }
   .degree {
     font-size: 14px;
@@ -172,8 +184,16 @@ p {
     position: relative;
     margin-top: 0;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
   }
   .section {
+    margin-bottom: 60px;
+  }
+
+  .volunteering-section {
     margin-bottom: 60px;
   }
 
@@ -229,8 +249,12 @@ p {
     .item {
       margin-bottom: 15px;
     }
-  }
 
+  }
+  
+  .icon-container {
+    margin-right: 5px;
+  }
   .publication-title {
     font-size: 16px;
     font-weight: 400;
@@ -272,6 +296,19 @@ p {
   }
 }
 
+.familiar {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: darken($theme-color, 15%);
+}
+
+.familiar-skills {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
 .footer {
   padding-top: 30px;
   .copyright {
@@ -285,3 +322,40 @@ p {
   }
 }
 
+.rasta {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.rasta-icon-container {
+  margin-right: 10px;
+  width: 60px;
+}
+
+.rasta-logo {
+  width: 60px;
+}
+
+.rasta-title {
+  font-size: 14px;
+  color: darken($theme-color, 15%);
+  font-weight: 700;
+}
+
+.rasta-summer {
+  color: darken($theme-color, 15%);
+}
+
+.rasta-comp {
+  color: $text-grey;
+}
+
+.course-title {
+  color: $text-color;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 1px;
+}

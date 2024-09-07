@@ -1,13 +1,13 @@
 {% assign skills = site.data.data.skills %} {% if skills %}
 
 <style>
-    .familiar .title {
+  .familiar .title {
     font-size: 18px;
     font-weight: 500;
     color: #2d7788;
-    }
+  }
 
-    .familiar .level-title {
+  .familiar .level-title {
     font-size: 14px;
     color: #545E6C;
   }
@@ -15,10 +15,12 @@
 
 <section class="skills-section section">
   <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
-    </span>
+    <div class="icon-container">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+      </span>
+    </div>
     {{ skills.title }}
   </h2>
 
@@ -37,12 +39,12 @@
   </div>
 
 
-  <div class="familiar">
-    <h3 class = "title">
+  <div class="familiar-container">
+    <h3 class="familiar">
       Familiar with:
     </h3>
     {% for skill in skills.familiar %}
-      <h3 class="level-title">{{ skill.name }}</h3>
+    <h3 class="familiar-skills">{{ skill.name }}</h3>
     <!--//item-->
     {% endfor %}
   </div>

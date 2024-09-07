@@ -55,7 +55,7 @@ career-profile:
     title: Career Profile
     summary: |
       As a computer engineering student, I am keen on expanding my skill set within my bachelor's degree program, particularly focusing on research fields within this domain.
-      Presently, I am learning about computer architecture and computer networks.
+      Presently, I am learning about computer architecture and the fundamentals of Artificial Intelligence.
 education:
     title: Education
     info:
@@ -90,6 +90,16 @@ courses:
 
     title: Courses
     info:
+      - role: "Computer Architecture: 18/20"
+        time: 2024
+        company: University of Isfahan
+        details: | 
+
+      - role: "Logic Design: 20/20"
+        time: 2024
+        company: University of Isfahan
+        details: | 
+
       - role: "Advanced Programming: 20/20"
         time: 2023
         company: University of Isfahan
@@ -128,17 +138,17 @@ skills:
       - name: C++
         level: 80%
 
-      - name: C
+      - name: Python
         level: 60%
 
       - name: Qt framework
         level: 40%
 
-      - name: Python
+      - name: C programming language
         level: 40%
 
     familiar:
-      - name: C#, SQLite, Docker, Git, HTML, CSS, Figma, MIPS Assembly, Linux
+      - name: SQLite, Docker, Git, HTML, CSS, Figma, Canva, MIPS Assembly, Linux
 
 soft-skills:
     title: Soft Skills
@@ -152,4 +162,4 @@ soft-skills:
 
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> and also me :)
