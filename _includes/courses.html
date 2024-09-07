@@ -14,16 +14,16 @@
   {% for course in courses.info %}
   <div class="item">
 
-    <div class="meta">
+    <div class="course-container">
 
-      <div class="upper-row">
+      <div class="course">
         <h3 class="course-title">{{ course.role }}</h3>
-        <div class="time">{{ course.time }}</div>
-      </div><!--//upper-row-->
+        <div class="company">{{ course.company }}</div>
+      </div>
+      
+      <div class="time-course">{{ course.time }}</div>
 
-      <div class="company">{{ course.company }}</div>
-
-    </div><!--//meta-->
+    </div>
 
     {% if course.details %}
     <div class="details">
